@@ -1,4 +1,4 @@
-<script>
+
         async function getWeather() {
             const city = document.getElementById("cityInput").value;
             const apiKey = "060f988e690e3dcde2e98d8962e9da80";
@@ -29,7 +29,7 @@
                 console.log("Fetch error:", error);
             }
         }
-    </script>
+
 
 
 
